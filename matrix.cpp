@@ -26,6 +26,25 @@ void main()
                  for(j=0;j<10;j++)
                   cout<<c[i][j];
                 break;
+       case 2 : cout<<"Enter elements of A";
+                for(i=0;i<10;i++)
+                 for(j=0;j<10;j++)
+                  cin>>a[i][j];
+                cout<<"Enter elements of b";
+                for(i=0;i<10;i++)
+                 for(j=0;j<10;j++)
+                  cin>>b[i][j];
+                cout<<"Sum"
+                for(i=0;i<10;i++)
+                 for(j=0;j<10;j++)
+                  c[i][j] = a[i][j]-b[i][j];
+                 cout<<"The sum is";
+                 for(i=0;i<10;i++)
+                  for(j=0;j<10;j++)
+                  cout<<c[i][j];
+                 break;
+       default : cout<<"Wrong Choice";
+                 break;
    }
    getch();
 }
